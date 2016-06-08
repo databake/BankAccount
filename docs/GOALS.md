@@ -1,4 +1,5 @@
 # GOALS
+This section outlines the goals that each actor has for the system.
 
 ## Customer
 * Open a new account
@@ -8,8 +9,15 @@
 * Make a balance enquiry
 * See insights about my spending
 * Add credit cards to my account
+* Get notifications of actions on my account
 
-## Bank
+## Bank Manager
 * Suspend an account
 * Re-activate a suspended account
 * Approve new account request
+
+## Bank Security Officer
+* Enforce high levels of password security
+* Enforce 2 factor authentication
+* Make certain that system is PCI DSS compatible
+* Make certain that OWASP principles are used
