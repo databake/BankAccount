@@ -3,7 +3,7 @@ React Native Bank Account App
 ===
 
 This example application is a test bed for deducing the best way to create a real-time, disconnected mobile cross platform app.
-The notion of using a bank account as the example is simply because it is widely understood and can easily lend itself to
+The notion of using a bank account as the example is simply because of common understanding. A bank account app can easily lend itself to
 proving workflows for account authorisation, proving security particularly around the storage of secrets etc and realtime
 particularly managing disconnected behaviour and requirements.
 
