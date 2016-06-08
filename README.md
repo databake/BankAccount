@@ -4,7 +4,7 @@ React Native Bank Account App
 
 This example application is a test bed for deducing the best way to create a real-time, disconnected mobile cross platform app.
 The notion of using a bank account as the example is simply because of common understanding. A bank account app can easily lend itself to
-proving workflows for account authorisation, proving security particularly around the storage of secrets etc and realtime
+proving workflows for i.e. account authorisation and management, proving security particularly around the storage of secrets etc and realtime
 particularly managing disconnected behaviour and requirements.
 
 ## Contents
@@ -16,17 +16,7 @@ Not all of the below is yet fully implemented
 
 ### Application Blueprint
 
-* Always up-to-date [React Native](https://facebook.github.io/react-native/) scaffolding
-* Modular and well-documented structure for application code
-* [Redux](http://redux.js.org/) and [ImmutableJS](https://facebook.github.io/immutable-js/) for safe and **Reasonaboutable**:tm: state management
-* [Redux Loop](https://github.com/raisemarketplace/redux-loop) for Elm-style controlled side effects
-* Redux-managed Navigators for Stack-based and Tabbed navigation with NavigationExperimental
-* Disk-persisted application state caching for offline support and snappy startup performance
-* :warning: Sample app to show how to wire it all together
-* :warning: Clean and testable service layer for interacting with RESTful APIs
-* :star: JSON Web Token authentication
-* :star: Multi-environment configuration (dev, staging, production) for iOS and Android
-* :star: Built-in error handling and customizable error screens
+* 
 
 ### Testing Setup
 
@@ -48,63 +38,3 @@ Not all of the below is yet fully implemented
 * **TODO** Crash reporting
 * **TODO** Android and iOS UI Testing with Calaba.sh?
 * **TODO** Feature flags?
-
-## Getting started
-
-To build your own app on top of the Starter Kit, fork or mirror this repository. Because you can't rename a fork, for serious use we recommend [mirroring using these instructions](https://help.github.com/articles/duplicating-a-repository/). To contribute to Starter Kit development or just playing around, forking is the way to go.
-
-First, give your application a name by running `./support/rename.sh YourAppName`.
-
-Once you have the code downloaded, follow the **[Setup guide](docs/SETUP.md)** to get started.
-
-## Development workflow
-
-After you have set up the project using above instructions, you can use your favorite IDE or text editor to write code, and run the application from the command line. Turn on React Native hot module reloading in the app developer menu to update your application as you code.
-
-To learn how to structure your application and use the Redux application architecture, read the **[Architecture guide](docs/ARCHITECTURE.md)** for more details.
-
-##### Start the application in iOS simulator
-```
-$ react-native run-ios
-```
-
-##### Start the application in Android simulator
-(If using the stock emulator, the emulator must be running)
-```
-$ react-native run-android
-```
-
-##### Run unit tests
-```
-$ npm test
-```
-
-##### Run tests every time code changes
-```
-$ npm run test:watch
-```
-
-##### Generate code coverage report
-```
-$ npm run coverage
-```
-
-Read the **[Testing guide](docs/TESTING.md)** for more information about writing tests.
-
-## Deployment
-
-Read the **[Deployment guide](docs/DEPLOYMENT.md)** to learn how to deploy the application to test devices, app stores, and how to use Code Push to push updates to your users immediately.
-
-## Contributing
-
-If you find any problems, please [open an issue](https://github.com/futurice/pepperoni-app-kit/issues/new) or submit a fix as a pull request.
-
-We welcome new features, but for large changes let's discuss first to make sure the changes can be accepted and integrated smoothly.
-
-## License
-
-[MIT License](LICENSE)
-
-## Credits
-
-This project was initially motivated by [Snowflake](https://github.com/bartonhammond/snowflake), a React Native boilerplate by Barton Hammond. It shares some features and design principles for Pepperoni, but it wasn't the right fit for our needs. At this time Snowflake is more mature, so if you like Pepperoni but didn't agree with something we are doing, you should check it out to see if it's a good fit for your app.
