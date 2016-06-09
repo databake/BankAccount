@@ -11,18 +11,18 @@ This section outlines the goals that each actor has for the system.
 * Add credit cards to my account
 * Get notifications of actions on my account
 
-## Bank/Product Owner
+## Product Owner
 * Get statistical analysis of useage
 * Get notified of crashes
 
-## Bank Manager
+## Manager
 * Suspend an account
 * Re-activate a suspended account
 * Approve new account request
 * Get an amalgamated list of all accounts
 * Get a list of all activities withing a period
 
-## Bank Security Officer
+## Security Officer
 * Enforce high levels of password security
 * Enforce 2 factor authentication
 * Make certain that system is PCI DSS compatible
